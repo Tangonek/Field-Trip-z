@@ -1,0 +1,4 @@
+local A_1 = "PICKUP_ITEM"
+	local A_2 = "MedKit"
+	local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+	Event:InvokeServer(A_1, A_2)
