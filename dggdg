@@ -1,0 +1,6 @@
+Tab:AddButton({
+	Name = "Heal you",
+	Callback = function()
+	       loadstring(game:HttpGet(("https://raw.githubusercontent.com./Tangonek/Field-Trip-z/main/God%20Mode"))()
+  	end    
+}
