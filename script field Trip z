@@ -83,7 +83,7 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddToggle({
-		Name = "Loop Heal Yourself",
+		Name = "God Mode",
 		Default = false,
 		Callback = function(Value)
 			getgenv().HealLoop = Value
