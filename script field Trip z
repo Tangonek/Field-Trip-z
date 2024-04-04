@@ -21,6 +21,12 @@ local Tab1 = Window:MakeTab({
     Icon = "rbxassetid://16607866349",
     PremiumOnly = false
 })
+
+local Tab2 = Window:MakeTab({
+    Name = "speed,jump",
+    Icon = "rbxassetid://16607866349",
+    PremiumOnly = false
+})
   
 local Section = Tab:AddSection({
 	Name = "by TANGO_VN"
@@ -160,4 +166,59 @@ Tab1:AddButton({
 	local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
 	Event:InvokeServer(A_1, A_2)
   	end    
-}
+})
+Tab2:AddSlider({
+	Name = "Walkspeed",
+	Min = 20,
+	Max = 1000,
+	Default = 20,
+	Color = Color3.fromRGB(140, 185, 255),
+	Increment = 1,
+	ValueName = "WS",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+Walkspeed = Value
+	end    
+})
+
+Tab2:AddToggle({
+	Name = "Keep Walkspeed",
+	Default = false,
+	Callback = function(Value)
+KeepWalkspeed = Value
+            while KeepWalkspeed do
+                if game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") ~= nil and game.Players.LocalPlayer.Character.Humanoid.WalkSpeed ~= Walkspeed then
+                    game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").WalkSpeed = Walkspeed
+                end
+task.wait()
+            end
+	end    
+})
+
+Tab2:AddSlider({
+	Name = "Jumppower",
+	Min = 50,
+	Max = 1000,
+	Default = 50,
+	Color = Color3.fromRGB(255, 185, 140),
+	Increment = 1,
+	ValueName = "JP",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+Jumppower = Value
+	end    
+})
+
+Tab2:AddToggle({
+	Name = "Keep Jumppower",
+	Default = false,
+	Callback = function(Value)
+KeepJumppower = Value
+            while KeepJumppower do
+                if game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") ~= nil and game.Players.LocalPlayer.Character.Humanoid.WalkSpeed ~= Jumppower then
+                    game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").WalkSpeed = Jumppower
+                end
+task.wait()
+            end
+	end    
+})
