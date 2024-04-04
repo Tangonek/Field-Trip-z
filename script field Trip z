@@ -1,0 +1,1427 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "FIELD TRIP Z 🧟", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+    Name = "Food",
+    Icon = "rbxassetid://16607866349",
+    PremiumOnly = false
+})
+
+local Tab1 = Window:MakeTab({
+    Name = "Items",
+    Icon = "rbxassetid://16607866349",
+    PremiumOnly = false
+})
+  
+local Section = Tab:AddSection({
+	Name = "by TANGO_VN"
+})
+		
+Tab:AddButton({
+	Name = "Donut🍩",
+	Callback = function()
+
+      		local A_1 = "PICKUP_ITEM"
+	local A_2 = "Donut"
+	local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+	Event:InvokeServer(A_1, A_2)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Bandage",
+	Callback = function()
+
+      		local A_1 = "PICKUP_ITEM"
+	local A_2 = "Bandage"
+	local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+	Event:InvokeServer(A_1, A_2)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Medkit",
+	Callback = function()
+
+      		local A_1 = "PICKUP_ITEM"
+	local A_2 = "MedKit"
+	local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+	Event:InvokeServer(A_1, A_2)
+  	end    
+})
+
+ Tab:AddButton({
+	Name = "Heal",
+	Callback = function()
+
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+       wait(0.1)
+		local A_1 = "HEAL_PLAYER"
+		local A_2 = game:GetService("Players").LocalPlayer
+		local A_3 = 999999999
+		local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+		Event:InvokeServer(A_1, A_2, A_3)
+  	end    
+})
+
+local Section = Tab1:AddSection({
+	Name = "key"
+})
+
+Tab1:AddButton({
+	Name = "Blue Key🔵",
+	Callback = function()
+
+      		local A_1 = "PICKUP_ITEM"
+	local A_2 = "BlueKey"
+	local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+	Event:InvokeServer(A_1, A_2)
+  	end    
+})
+
+Tab1:AddButton({
+	Name = "Yellow Key🔑",
+	Callback = function()
+
+      		local A_1 = "PICKUP_ITEM"
+	local A_2 = "YellowKey"
+	local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+	Event:InvokeServer(A_1, A_2)
+  	end    
+})
+
+Tab1:AddButton({
+	Name = "Red Key🔴",
+	Callback = function()
+
+      		local A_1 = "PICKUP_ITEM"
+	local A_2 = "BunkerKey"
+	local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+	Event:InvokeServer(A_1, A_2)
+  	end    
+})
+
+local Section = Tab1:AddSection({
+	Name = "weapons, objects"
+})
+Tab1:AddButton({
+	Name = "Rocket🚀",
+	Callback = function()
+
+      		local A_1 = "PICKUP_ITEM"
+	local A_2 = "Rocket"
+	local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+	Event:InvokeServer(A_1, A_2)
+  	end    
+})
+
+Tab1:AddButton({
+	Name = "Crowbar",
+	Callback = function()
+
+      		local A_1 = "PICKUP_ITEM"
+	local A_2 = "Crowbar"
+	local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+	Event:InvokeServer(A_1, A_2)
+  	end    
+})
+
+Tab1:AddButton({
+	Name = "Bat",
+	Callback = function()
+
+      		local A_1 = "PICKUP_ITEM"
+	local A_2 = "Bat"
+	local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
+	Event:InvokeServer(A_1, A_2)
+  	end    
+})
