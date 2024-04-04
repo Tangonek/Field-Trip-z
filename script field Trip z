@@ -59,6 +59,10 @@ Tab:AddButton({
   	end    
 })
 
+local Section = Tab:AddSection({
+	Name = "Health"
+})
+
  Tab:AddButton({
 	Name = "Heal",
 	Callback = function()
