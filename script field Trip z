@@ -120,18 +120,6 @@ Tab1:AddButton({
 	Event:InvokeServer(A_1, A_2)
   	end    
 })
-
-Tab1:AddButton({
-	Name = "Red Key🔴",
-	Callback = function()
-
-      		local A_1 = "PICKUP_ITEM"
-	local A_2 = "BunkerKey"
-	local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
-	Event:InvokeServer(A_1, A_2)
-  	end    
-})
-
 local Section = Tab1:AddSection({
 	Name = "weapons, objects"
 })
@@ -145,24 +133,12 @@ Tab1:AddButton({
 	Event:InvokeServer(A_1, A_2)
   	end    
 })
-
 Tab1:AddButton({
-	Name = "Crowbar",
+	Name = "Homework 🧾",
 	Callback = function()
 
       		local A_1 = "PICKUP_ITEM"
-	local A_2 = "Crowbar"
-	local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
-	Event:InvokeServer(A_1, A_2)
-  	end    
-})
-
-Tab1:AddButton({
-	Name = "Bat",
-	Callback = function()
-
-      		local A_1 = "PICKUP_ITEM"
-	local A_2 = "Bat"
+	local A_2 = "Homework"
 	local Event = game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction
 	Event:InvokeServer(A_1, A_2)
   	end    
