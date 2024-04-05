@@ -121,7 +121,7 @@ Tab1:AddButton({
   	end    
 })
 local Section = Tab1:AddSection({
-	Name = "weapons, objects"
+	Name = "Items"
 })
 Tab1:AddButton({
 	Name = "Rocket🚀",
