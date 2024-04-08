@@ -10,6 +10,18 @@ local function HealYourself()
 		Event:InvokeServer(A_1, A_2, A_3)
   end
 
+local function HealEveryone()
+for i, v in pairs(game.Players:GetPlayers()) do
+                if v.Name ~= game:GetService("Players").LocalPlayer then
+                    game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction:InvokeServer(
+                        "HEAL_PLAYER",
+                        v,
+                        9e9
+                    )
+                end
+            end
+        end
+
 local Tab = Window:MakeTab({
     Name = "Food",
     Icon = "rbxassetid://16607866349",
@@ -81,7 +93,6 @@ local Section = Tab:AddSection({
   
   	end    
 })
-
 Tab:AddToggle({
 		Name = "God Mode",
 		Default = false,
@@ -94,6 +105,36 @@ Tab:AddToggle({
 		end
 	})
 
+local Section = Tab:AddSection({
+	Name = "everyone's health (all)"
+})
+
+Tab:AddButton({
+	Name = "Heal Everyone",
+	Callback = function()
+for i, v in pairs(game.Players:GetPlayers()) do
+                if v.Name ~= game:GetService("Players").LocalPlayer then
+                    game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction:InvokeServer(
+                        "HEAL_PLAYER",
+                        v,
+                        9e9
+                    )
+                end
+            end
+        end
+})
+
+Tab:AddToggle({
+		Name = "God Mode Everyone (all)",
+		Default = false,
+		Callback = function(Value)
+			getgenv().Heal Everyone = Value
+			while Heal Everyone do
+				HealEveryone()
+				task.wait(.1)
+			end
+		end
+	})
 
 local Section = Tab1:AddSection({
 	Name = "key"
@@ -197,4 +238,4 @@ KeepJumppower = Value
 task.wait()
             end
 	end    
-})
+}
