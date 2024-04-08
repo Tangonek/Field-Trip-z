@@ -136,6 +136,18 @@ Tab:AddToggle({
 		end
 	})
 
+local function Heal(Value)
+for i, v in pairs(game.Players:GetPlayers()) do
+                if v.Name ~= game:GetService("Players").LocalPlayer then
+                    game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction:InvokeServer(
+                        "HEAL_PLAYER",
+                        v,
+                        9e9
+                    )
+                end
+            end
+        end
+
 local Section = Tab1:AddSection({
 	Name = "key"
 })
