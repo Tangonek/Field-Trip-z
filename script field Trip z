@@ -10,7 +10,7 @@ local function HealYourself()
 		Event:InvokeServer(A_1, A_2, A_3)
   end
 
-local function HealEveryone()
+local function Heal()
 for i, v in pairs(game.Players:GetPlayers()) do
                 if v.Name ~= game:GetService("Players").LocalPlayer then
                     game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction:InvokeServer(
@@ -110,7 +110,7 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Heal Everyone",
+	Name = "Heal Everyone (all)",
 	Callback = function()
 for i, v in pairs(game.Players:GetPlayers()) do
                 if v.Name ~= game:GetService("Players").LocalPlayer then
@@ -128,9 +128,9 @@ Tab:AddToggle({
 		Name = "God Mode Everyone (all)",
 		Default = false,
 		Callback = function(Value)
-			getgenv().Heal Everyone = Value
-			while Heal Everyone do
-				HealEveryone()
+			getgenv().Heal = Value
+			while HealEveryone do
+				Heal()
 				task.wait(.1)
 			end
 		end
@@ -238,4 +238,4 @@ KeepJumppower = Value
 task.wait()
             end
 	end    
-}
+})
