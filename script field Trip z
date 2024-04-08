@@ -39,7 +39,8 @@ local Tab2 = Window:MakeTab({
     Icon = "rbxassetid://16607866349",
     PremiumOnly = false
 })
-  
+Tab:AddParagraph("Welcome!", "Hello, thank you for using my script, there are many functions, try it now.")
+
 local Section = Tab:AddSection({
 	Name = "by TANGO_VN"
 })
