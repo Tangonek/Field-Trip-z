@@ -148,8 +148,12 @@ for i, v in pairs(game.Players:GetPlayers()) do
             end
         end
 
+local Section = Tab:AddSection({
+	Name = "–Update 1.5–"
+})
+
 local Section = Tab1:AddSection({
-	Name = "key"
+	Name = "Key"
 })
 
 Tab1:AddButton({
