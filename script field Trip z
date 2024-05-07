@@ -102,7 +102,7 @@ Tab:AddToggle({
 			getgenv().HealLoop = Value
 			while HealLoop do
 				HealYourself()
-				task.wait(0.1)
+				task.wait(.1)
 			end
 		end
 	})
@@ -133,7 +133,7 @@ Tab:AddToggle({
 			getgenv().Heal = Value
 			while HealEveryone do
 				Heal()
-				task.wait(0.5)
+				task.wait(.5)
 			end
 		end
 	})
