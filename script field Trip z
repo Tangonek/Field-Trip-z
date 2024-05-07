@@ -130,8 +130,8 @@ Tab:AddToggle({
 		Name = "God Mode Everyone (all)",
 		Default = false,
 		Callback = function(Value)
-			getgenv().HealEvryone = Value
-			while HealEvryone do
+			getgenv().HealE = Value
+			while HealE do
 				Heal()
 				task.wait(.5)
 			end
