@@ -2,7 +2,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ion
 local Window = OrionLib:MakeWindow({Name = "FIELD TRIP Z 🧟", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local function HealYourself()
-       wait(0.1)
+       wait(.1)
 		local A_1 = "HEAL_PLAYER"
 		local A_2 = game:GetService("Players").LocalPlayer
 		local A_3 = 999999999
@@ -11,7 +11,7 @@ local function HealYourself()
   end
 
 local function Heal()
-       wait(0.5)
+       wait(.5)
 for i, v in pairs(game.Players:GetPlayers()) do
                 if v.Name ~= game:GetService("Players").LocalPlayer then
                     game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction:InvokeServer(
