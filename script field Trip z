@@ -11,6 +11,7 @@ local function HealYourself()
   end
 
 local function Heal()
+       wait(0.5)
 for i, v in pairs(game.Players:GetPlayers()) do
                 if v.Name ~= game:GetService("Players").LocalPlayer then
                     game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction:InvokeServer(
@@ -101,7 +102,7 @@ Tab:AddToggle({
 			getgenv().HealLoop = Value
 			while HealLoop do
 				HealYourself()
-				task.wait(.1)
+				task.wait(0.1)
 			end
 		end
 	})
@@ -132,7 +133,7 @@ Tab:AddToggle({
 			getgenv().Heal = Value
 			while HealEveryone do
 				Heal()
-				task.wait(.1)
+				task.wait(0.5)
 			end
 		end
 	})
