@@ -10,8 +10,8 @@ local function HealYourself()
 		Event:InvokeServer(A_1, A_2, A_3)
   end
 
-local function Heal()
-       wait(.5)
+local function HealE()
+       wait(.2)
 for i, v in pairs(game.Players:GetPlayers()) do
                 if v.Name ~= game:GetService("Players").LocalPlayer then
                     game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction:InvokeServer(
@@ -132,8 +132,8 @@ Tab:AddToggle({
 		Callback = function(Value)
 			getgenv().HealE = Value
 			while HealE do
-				Heal()
-				task.wait(.5)
+				HealE()
+				task.wait(.2)
 			end
 		end
 	})
@@ -151,7 +151,7 @@ for i, v in pairs(game.Players:GetPlayers()) do
         end
 
 local Section = Tab:AddSection({
-	Name = "–Update 1.5–"
+	Name = "–Update 1.6–"
 })
 
 local Section = Tab1:AddSection({
